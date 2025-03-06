@@ -1,5 +1,7 @@
 # Blob Storage Notify Proxy
 
+[![Docker Image](https://badgen.net/badge/icon/docker?icon=docker&label)](https://hub.docker.com/r/vincentfenet/blob-storage-notify-proxy)
+
 This is a simple proxy server that forwards requests to a target server and sends notifications when the request is processed.
 
 ## Usage

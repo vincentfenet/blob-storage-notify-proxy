@@ -168,7 +168,7 @@ class Proxy:
                     "method": method,
                     "path": path,
                     "headers": headers,
-                    "body": body.decode("ascii"),
+                    "body": body,
                 }
             )
 
@@ -209,7 +209,7 @@ class Proxy:
                     "status_code": int(status_code),
                     "reason_phrase": reason_phrase,
                     "headers": headers,
-                    "body": body.decode("ascii"),
+                    "body": body,
                 }
             )
 
